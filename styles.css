@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-image: url("https://images.britcdn.com/wp-content/uploads/2016/10/iStock_32489982_LARGE.jpg?fit=max&w=1440");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  padding: 25px 0;
+  font: Times;
+  font-size: xx-large;
+}
+
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 6;
+  color: #ffffff;
+  background-color: #E8E8E8;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #E8E8E8;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.title {
+  font-size: 10;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  background-color: #E8E8E8;
+  background: rgba(128, 128, 128, 0.5);
+  font-size: 8;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  font-size: 8;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #ffffff;
+  font-size: 8;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fff;
+  text-shadow: none;
+  font-size: xx-large;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+  font-size: xx-large;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+  font-size: xx-large;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+
+}
